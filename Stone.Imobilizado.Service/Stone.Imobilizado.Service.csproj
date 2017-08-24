@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AndarService.cs" />
     <Compile Include="Base\IServiceBase.cs" />
+    <Compile Include="Base\ServiceBase.cs" />
+    <Compile Include="Interface\IAndarService.cs" />
     <Compile Include="Interface\IImobilizadoService.cs" />
     <Compile Include="ImobilizadoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

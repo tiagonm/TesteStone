@@ -21,3 +21,4 @@ C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\System.Runtime.InteropServi
 C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\MongoDB.Bson.xml
 C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\MongoDB.Driver.xml
 C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\MongoDB.Driver.Core.xml
+C:\TesteStone\Stone.Imobilizado.Repository\obj\Debug\Stone.Imobilizado.Repository.csprojResolveAssemblyReference.cache

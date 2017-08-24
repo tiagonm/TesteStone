@@ -2,3 +2,4 @@ C:\TesteStone\Stone.Imobilizado.Model\bin\Debug\Stone.Imobilizado.Model.dll
 C:\TesteStone\Stone.Imobilizado.Model\bin\Debug\Stone.Imobilizado.Model.pdb
 C:\TesteStone\Stone.Imobilizado.Model\obj\Debug\Stone.Imobilizado.Model.dll
 C:\TesteStone\Stone.Imobilizado.Model\obj\Debug\Stone.Imobilizado.Model.pdb
+C:\TesteStone\Stone.Imobilizado.Model\obj\Debug\Stone.Imobilizado.Model.csprojResolveAssemblyReference.cache

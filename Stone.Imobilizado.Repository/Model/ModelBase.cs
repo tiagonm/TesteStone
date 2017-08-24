@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace Stone.Imobilizado.Repository.Model
 {
-    public class AndarModel: ModelBase
+    public class ModelBase
     {
-       
-        public string Nome { get; set; }
-
-      
+        [BsonElement("_id")]
+        public string Id { get; set; }
     }
 }

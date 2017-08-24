@@ -25,7 +25,7 @@ namespace Stone.Imobilizado.UnitTest
 
             var computador = new ComputadorModel {
                 Nome = "Computador Sala 1",
-                Andar = AndarEnum.PrimeiroAndar,
+                Andar = new AndarModel(),
                 Id = ""
             };
             imobilizadoService.Add(computador);

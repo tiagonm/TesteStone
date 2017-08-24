@@ -66,6 +66,7 @@
     <Compile Include="Model\ComputadorModel.cs" />
     <Compile Include="Model\Enum\AndarEnum.cs" />
     <Compile Include="Model\ImobilizadoModel.cs" />
+    <Compile Include="Model\ModelBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

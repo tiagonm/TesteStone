@@ -5,14 +5,13 @@ using Stone.Imobilizado.Repository.Model.Enum;
 namespace Stone.Imobilizado.Repository.Model
 {
     [BsonKnownTypes(typeof(ComputadorModel))]
-    public abstract class ImobilizadoModel
+    public abstract class ImobilizadoModel: ModelBase
     {
-        [BsonElement("_id")]
-        public string Id { get; set; }
+      
 
         public string Nome { get; set; }
 
-        public AndarEnum Andar { get; set; }
+        public AndarModel Andar { get; set; }
 
        
     }
