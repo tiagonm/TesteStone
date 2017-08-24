@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Stone.Imobilizado.Repository.Model
 {
+    
     public class AndarModel: ModelBase
     {
        

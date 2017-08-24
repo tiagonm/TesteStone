@@ -12,11 +12,16 @@ namespace Stone.Imobilizado.Service
 {
     public class ImobilizadoService : ServiceBase<ImobilizadoModel>,IImobilizadoService
     {        
+        
         public ImobilizadoService(IImobilizadoRepository repository)
             : base (repository)
         {
             
         }
-      
+
+        public List<T> ObterLivres<T>()
+        {
+            return this.Get<T>(c => c.Andar == null);
+        }
     }
 }

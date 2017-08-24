@@ -11,6 +11,6 @@ namespace Stone.Imobilizado.Service
 {
     public interface IImobilizadoService: IServiceBase<ImobilizadoModel>
     {
-        
+        List<T> ObterLivres<T>();
     }
 }

@@ -58,9 +58,7 @@ C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado.UnitTest\obj\Debug\Stone.Imobilizado.UnitTest.csprojResolveAssemblyReference.cache
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado.UnitTest\obj\Debug\Stone.Imobilizado.UnitTest.dll
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado.UnitTest\obj\Debug\Stone.Imobilizado.UnitTest.pdb
-C:\TesteStone\Stone.Imobilizado.UnitTest\obj\Debug\Stone.Imobilizado.UnitTest.csprojResolveAssemblyReference.cache
-C:\TesteStone\Stone.Imobilizado.UnitTest\obj\Debug\Stone.Imobilizado.UnitTest.dll
-C:\TesteStone\Stone.Imobilizado.UnitTest\obj\Debug\Stone.Imobilizado.UnitTest.pdb
+C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\xunit.abstractions.dll
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\ApplicationInsights.config
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\roslyn\csc.exe
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -77,7 +75,6 @@ C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\roslyn\VBCSCompiler.exe.confi
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\xunit.runner.visualstudio.testadapter.dll
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\xunit.runner.utility.net35.dll
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\xunit.runner.reporters.net452.dll
-C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\xunit.abstractions.dll
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\Stone.Imobilizado.UnitTest.dll.config
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\Stone.Imobilizado.UnitTest.dll
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\Stone.Imobilizado.UnitTest.pdb
@@ -118,3 +115,6 @@ C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\SimpleInjector.Integration.We
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\MongoDB.Driver.Core.xml
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\System.Net.Http.Formatting.xml
 C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\Newtonsoft.Json.xml
+C:\TesteStone\Stone.Imobilizado.UnitTest\obj\Debug\Stone.Imobilizado.UnitTest.csprojResolveAssemblyReference.cache
+C:\TesteStone\Stone.Imobilizado.UnitTest\obj\Debug\Stone.Imobilizado.UnitTest.dll
+C:\TesteStone\Stone.Imobilizado.UnitTest\obj\Debug\Stone.Imobilizado.UnitTest.pdb

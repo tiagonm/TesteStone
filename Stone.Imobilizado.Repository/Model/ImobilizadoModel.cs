@@ -6,8 +6,7 @@ namespace Stone.Imobilizado.Repository.Model
 {
     [BsonKnownTypes(typeof(ComputadorModel))]
     public abstract class ImobilizadoModel: ModelBase
-    {
-      
+    {      
 
         public string Nome { get; set; }
 

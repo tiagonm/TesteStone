@@ -33,6 +33,16 @@ namespace Stone.Imobilizado.Service.Base
             return _repository.Get<_T>(filter);
         }
 
+        public List<_T> GetAll<_T>()
+        {
+            return _repository.Get<_T>(o => true);
+        }
+
+        public _T GetById<_T>(string id)
+        {
+            return _repository.Get<_T>(o => o.Id == id).FirstOrDefault();            
+        }
+
         public virtual void Update(T entity)
         {
             _repository.Update(i => i.Id, entity, entity.Id);

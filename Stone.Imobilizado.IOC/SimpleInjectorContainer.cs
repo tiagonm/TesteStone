@@ -11,10 +11,13 @@ namespace Stone.Imobilizado.IOC
         {
             var container = new Container();
             container.Options.DefaultScopedLifestyle = new AsyncScopedLifestyle();
-            //Registrando as Implementações
-            container.Register<IImobilizadoRepository, ImobilizadoRepository>();
-            container.Register<IImobilizadoService, ImobilizadoService>();
             
+            container.Register<IImobilizadoRepository, ImobilizadoRepository>();
+            container.Register<IAndarRepository, AndarRepository>();
+
+            container.Register<IImobilizadoService, ImobilizadoService>();
+            container.Register<IAndarService, AndarService>();
+
 
             container.Verify();
             return container;

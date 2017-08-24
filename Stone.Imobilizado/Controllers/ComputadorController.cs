@@ -12,10 +12,11 @@ namespace Stone.Imobilizado.Controllers
     public class ComputadorController : ApiController
     {
         private readonly IImobilizadoService _service;
-
-        public ComputadorController(IImobilizadoService service)
+        private readonly IAndarService _andarService;
+        public ComputadorController(IImobilizadoService service, IAndarService andarService)
         {
             _service = service;
+            _andarService = andarService;
         }
 
         [HttpDelete]
@@ -42,7 +43,7 @@ namespace Stone.Imobilizado.Controllers
             List<ComputadorModel> listaComputador = null;
             try
             {
-                listaComputador = _service.Get<ComputadorModel>();
+                listaComputador = _service.GetAll<ComputadorModel>();
 
             }
             catch (Exception ex)
@@ -52,6 +53,26 @@ namespace Stone.Imobilizado.Controllers
 
             return listaComputador;
         }
+
+        [HttpGet]
+        
+        // GET api/<controller>
+        public IEnumerable<ComputadorModel> Livres()
+        {
+            List<ComputadorModel> listaComputador = null;
+            try
+            {
+                listaComputador = _service.ObterLivres<ComputadorModel>();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return listaComputador;
+        }
+
         [HttpGet]
         // GET api/<controller>/5
         public ComputadorModel Get(string id)
@@ -59,7 +80,7 @@ namespace Stone.Imobilizado.Controllers
             ComputadorModel computador = null;
             try
             {
-                computador = _service.Get<ComputadorModel>(c => c.Id == id).FirstOrDefault();
+                computador = _service.GetById<ComputadorModel>(id);
             }
             catch (Exception ex)
             {
@@ -75,8 +96,13 @@ namespace Stone.Imobilizado.Controllers
             IHttpActionResult result = null;
             try
             {
-                _service.Update(computador);
-                result = Ok();
+                if (VerificarAndar(computador.Andar))
+                {
+                    _service.Update(computador);
+                    result = Ok();
+                }
+                else
+                    result = BadRequest();
             }
             catch (Exception ex)
             {
@@ -91,9 +117,14 @@ namespace Stone.Imobilizado.Controllers
         {
             IHttpActionResult result = null;
             try
-            {                
-                _service.Add(computador);
-                result = Ok();
+            {
+                if (VerificarAndar(computador.Andar))
+                {
+                    _service.Add(computador);
+                    result = Ok();
+                }
+                else
+                    result = BadRequest();
             }
             catch (Exception ex)
             {
@@ -103,6 +134,14 @@ namespace Stone.Imobilizado.Controllers
             return result;
         }
 
+        private bool VerificarAndar(AndarModel andar)
+        {
+            if (andar == null)
+                return true;
 
+            var andarValidacao = _andarService.GetById<AndarModel>(andar.Id);
+
+            return (andarValidacao != null);
+        }
     }
 }

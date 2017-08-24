@@ -56,9 +56,6 @@ C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado\obj\Debug\Stone.Imobilizado.csprojResolveAssemblyReference.cache
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado\obj\Debug\Stone.Imobilizado.dll
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado\obj\Debug\Stone.Imobilizado.pdb
-C:\TesteStone\Stone.Imobilizado\obj\Debug\Stone.Imobilizado.csprojResolveAssemblyReference.cache
-C:\TesteStone\Stone.Imobilizado\obj\Debug\Stone.Imobilizado.dll
-C:\TesteStone\Stone.Imobilizado\obj\Debug\Stone.Imobilizado.pdb
 C:\TesteStone\Stone.Imobilizado\bin\ApplicationInsights.config
 C:\TesteStone\Stone.Imobilizado\bin\roslyn\csc.exe
 C:\TesteStone\Stone.Imobilizado\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -114,3 +111,6 @@ C:\TesteStone\Stone.Imobilizado\bin\System.Web.Http.WebHost.xml
 C:\TesteStone\Stone.Imobilizado\bin\MongoDB.Bson.xml
 C:\TesteStone\Stone.Imobilizado\bin\MongoDB.Driver.xml
 C:\TesteStone\Stone.Imobilizado\bin\MongoDB.Driver.Core.xml
+C:\TesteStone\Stone.Imobilizado\obj\Debug\Stone.Imobilizado.csprojResolveAssemblyReference.cache
+C:\TesteStone\Stone.Imobilizado\obj\Debug\Stone.Imobilizado.dll
+C:\TesteStone\Stone.Imobilizado\obj\Debug\Stone.Imobilizado.pdb

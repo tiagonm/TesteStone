@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace Stone.Imobilizado.Service
 {
-    public interface IAndarService: IServiceBase<AndarModel>
+    public interface IAndarService : IServiceBase<AndarModel>
     {
+
     }
 }

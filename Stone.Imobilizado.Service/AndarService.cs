@@ -16,7 +16,9 @@ namespace Stone.Imobilizado.Service
         public AndarService(IAndarRepository repository)
             : base(repository)
         {
+
         }
 
+        
     }
 }
