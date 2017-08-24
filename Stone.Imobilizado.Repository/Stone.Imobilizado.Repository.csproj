@@ -56,12 +56,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AndarRepository.cs" />
     <Compile Include="Base\IRepositoryBase.cs" />
-    <Compile Include="IImobilizadoRepository.cs" />
+    <Compile Include="Base\RepositoryBase.cs" />
+    <Compile Include="Interface\IAndarRepository.cs" />
+    <Compile Include="Interface\IImobilizadoRepository.cs" />
     <Compile Include="ImobilizadoRepository.cs" />
-    <Compile Include="Model\Computador.cs" />
+    <Compile Include="Model\AndarModel.cs" />
+    <Compile Include="Model\ComputadorModel.cs" />
     <Compile Include="Model\Enum\AndarEnum.cs" />
-    <Compile Include="Model\Imobilizado.cs" />
+    <Compile Include="Model\ImobilizadoModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

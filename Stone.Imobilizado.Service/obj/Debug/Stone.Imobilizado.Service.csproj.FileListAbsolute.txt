@@ -12,3 +12,17 @@ C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado.Service\obj\Debug\Stone.Imobilizado.Service.csprojResolveAssemblyReference.cache
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado.Service\obj\Debug\Stone.Imobilizado.Service.dll
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado.Service\obj\Debug\Stone.Imobilizado.Service.pdb
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\Stone.Imobilizado.Service.dll
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\Stone.Imobilizado.Service.pdb
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\Stone.Imobilizado.Repository.dll
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\MongoDB.Driver.dll
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\MongoDB.Bson.dll
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\MongoDB.Driver.Core.dll
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\Stone.Imobilizado.Repository.pdb
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\MongoDB.Driver.xml
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\MongoDB.Bson.xml
+C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\MongoDB.Driver.Core.xml
+C:\TesteStone\Stone.Imobilizado.Service\obj\Debug\Stone.Imobilizado.Service.csprojResolveAssemblyReference.cache
+C:\TesteStone\Stone.Imobilizado.Service\obj\Debug\Stone.Imobilizado.Service.dll
+C:\TesteStone\Stone.Imobilizado.Service\obj\Debug\Stone.Imobilizado.Service.pdb

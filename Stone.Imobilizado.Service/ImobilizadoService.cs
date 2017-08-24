@@ -34,7 +34,7 @@ namespace Stone.Imobilizado.Service
 
         public void Update(ImobilizadoModel entity)
         {
-            _repository.Update(i => i.Id, entity);
+            _repository.Update(i => i.Id, entity, entity.Id);
         }
     }
 }

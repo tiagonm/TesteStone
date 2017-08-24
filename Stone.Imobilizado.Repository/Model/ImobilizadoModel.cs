@@ -1,9 +1,10 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using System;
+using MongoDB.Bson.Serialization.Attributes;
 using Stone.Imobilizado.Repository.Model.Enum;
 
 namespace Stone.Imobilizado.Repository.Model
 {
-    [BsonKnownTypes(typeof(Computador))]
+    [BsonKnownTypes(typeof(ComputadorModel))]
     public abstract class ImobilizadoModel
     {
         [BsonElement("_id")]
@@ -12,5 +13,7 @@ namespace Stone.Imobilizado.Repository.Model
         public string Nome { get; set; }
 
         public AndarEnum Andar { get; set; }
+
+       
     }
 }

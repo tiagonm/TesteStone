@@ -10,3 +10,14 @@ C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado.Repository\obj\Debug\Stone.Imobilizado.Repository.dll
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado.Repository\obj\Debug\Stone.Imobilizado.Repository.pdb
 C:\Users\notebook\Documents\Visual Studio 2015\Projects\Stone.Imobilizado\Stone.Imobilizado.Repository\obj\Debug\Stone.Imobilizado.Repository.csprojResolveAssemblyReference.cache
+C:\TesteStone\Stone.Imobilizado.Repository\obj\Debug\Stone.Imobilizado.Repository.dll
+C:\TesteStone\Stone.Imobilizado.Repository\obj\Debug\Stone.Imobilizado.Repository.pdb
+C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\Stone.Imobilizado.Repository.dll
+C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\Stone.Imobilizado.Repository.pdb
+C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\MongoDB.Bson.dll
+C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\MongoDB.Driver.Core.dll
+C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\MongoDB.Driver.dll
+C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\MongoDB.Bson.xml
+C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\MongoDB.Driver.xml
+C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\MongoDB.Driver.Core.xml

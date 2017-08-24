@@ -37,12 +37,12 @@ namespace Stone.Imobilizado.Controllers
 
         [HttpGet]
         // GET api/<controller>
-        public IEnumerable<Computador> Get()
+        public IEnumerable<ComputadorModel> Get()
         {
-            List<Computador> listaComputador = null;
+            List<ComputadorModel> listaComputador = null;
             try
             {
-                listaComputador = _service.Get<Computador>();
+                listaComputador = _service.Get<ComputadorModel>();
 
             }
             catch (Exception ex)
@@ -54,12 +54,12 @@ namespace Stone.Imobilizado.Controllers
         }
         [HttpGet]
         // GET api/<controller>/5
-        public Computador Get(string id)
+        public ComputadorModel Get(string id)
         {
-            Computador computador = null;
+            ComputadorModel computador = null;
             try
             {
-                computador = _service.Get<Computador>(c => c.Id == id).FirstOrDefault();
+                computador = _service.Get<ComputadorModel>(c => c.Id == id).FirstOrDefault();
             }
             catch (Exception ex)
             {
@@ -70,7 +70,7 @@ namespace Stone.Imobilizado.Controllers
         }
         [HttpPost]
         // POST api/<controller>
-        public IHttpActionResult Post([FromBody]Computador computador)
+        public IHttpActionResult Post([FromBody]ComputadorModel computador)
         {
             IHttpActionResult result = null;
             try
@@ -87,7 +87,7 @@ namespace Stone.Imobilizado.Controllers
         }
 
         [HttpPut]
-        public IHttpActionResult Put([FromBody]Computador computador)
+        public IHttpActionResult Put([FromBody]ComputadorModel computador)
         {
             IHttpActionResult result = null;
             try

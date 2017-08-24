@@ -4,7 +4,7 @@ namespace Stone.Imobilizado.Repository.Model
 {
     
     [BsonDiscriminator]
-    public class Computador: ImobilizadoModel
+    public class ComputadorModel: ImobilizadoModel
     {
 
     }

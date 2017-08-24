@@ -21,9 +21,9 @@ namespace Stone.Imobilizado.UnitTest
             ImobilizadoService imobilizadoService = new ImobilizadoService(imobilizadoRepository.Object);
 
             imobilizadoRepository
-                .Setup(i => i.Add(It.IsAny<Computador>()));
+                .Setup(i => i.Add(It.IsAny<ComputadorModel>()));
 
-            var computador = new Computador {
+            var computador = new ComputadorModel {
                 Nome = "Computador Sala 1",
                 Andar = AndarEnum.PrimeiroAndar,
                 Id = ""

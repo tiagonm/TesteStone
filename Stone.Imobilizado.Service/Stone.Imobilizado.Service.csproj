@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\IServiceBase.cs" />
-    <Compile Include="IImobilizadoService.cs" />
+    <Compile Include="Interface\IImobilizadoService.cs" />
     <Compile Include="ImobilizadoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

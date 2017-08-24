@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Imobilizado.IOC", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Imobilizado.UnitTest", "Stone.Imobilizado.UnitTest\Stone.Imobilizado.UnitTest.csproj", "{484ABCAD-DB4F-49F3-B4DE-4A99818B1636}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Imobilizado.Model", "Stone.Imobilizado.Model\Stone.Imobilizado.Model.csproj", "{CBF06E10-96B7-44CC-A5E2-AA81286A0D74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{484ABCAD-DB4F-49F3-B4DE-4A99818B1636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{484ABCAD-DB4F-49F3-B4DE-4A99818B1636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{484ABCAD-DB4F-49F3-B4DE-4A99818B1636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF06E10-96B7-44CC-A5E2-AA81286A0D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF06E10-96B7-44CC-A5E2-AA81286A0D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF06E10-96B7-44CC-A5E2-AA81286A0D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF06E10-96B7-44CC-A5E2-AA81286A0D74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
