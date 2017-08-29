@@ -17,6 +17,7 @@ namespace Stone.Imobilizado.Controllers
         {
             _service = service;
             _andarService = andarService;
+
         }
 
         [HttpDelete]
