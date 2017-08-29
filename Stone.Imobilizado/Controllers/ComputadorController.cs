@@ -20,6 +20,7 @@ namespace Stone.Imobilizado.Controllers
         }
 
         [HttpDelete]
+        [Route("api/computador/{id}")]
         public IHttpActionResult Delete(string id)
         {
             IHttpActionResult result = null;
@@ -37,6 +38,7 @@ namespace Stone.Imobilizado.Controllers
         }
 
         [HttpGet]
+        [Route("api/computador")]
         // GET api/<controller>
         public IEnumerable<ComputadorModel> Get()
         {
@@ -55,9 +57,9 @@ namespace Stone.Imobilizado.Controllers
         }
 
         [HttpGet]
-        
+        [Route("api/computador/disponiveis")]
         // GET api/<controller>
-        public IEnumerable<ComputadorModel> Livres()
+        public IEnumerable<ComputadorModel> Disponiveis()
         {
             List<ComputadorModel> listaComputador = null;
             try
@@ -74,6 +76,7 @@ namespace Stone.Imobilizado.Controllers
         }
 
         [HttpGet]
+        [Route("api/computador/{id}")]
         // GET api/<controller>/5
         public ComputadorModel Get(string id)
         {
@@ -91,6 +94,7 @@ namespace Stone.Imobilizado.Controllers
         }
         [HttpPost]
         // POST api/<controller>
+        [Route("api/computador")]
         public IHttpActionResult Post([FromBody]ComputadorModel computador)
         {
             IHttpActionResult result = null;
@@ -113,6 +117,7 @@ namespace Stone.Imobilizado.Controllers
         }
 
         [HttpPut]
+        [Route("api/computador")]
         public IHttpActionResult Put([FromBody]ComputadorModel computador)
         {
             IHttpActionResult result = null;

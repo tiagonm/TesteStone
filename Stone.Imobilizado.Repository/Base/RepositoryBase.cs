@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Stone.Imobilizado.Repository.Base
 {
-    public class RepositoryBase<T> :  IRepositoryBase<T> where T : class
+    public class RepositoryBase<T> :  IRepositoryBase<T> where T : ModelBase
     {
         private IMongoDatabase _database;
         private IMongoCollection<T> _collection;
@@ -46,7 +46,13 @@ namespace Stone.Imobilizado.Repository.Base
             return lista.ToList<U>();
         }
 
-      
-        
+        public U GetById<U>(string id)
+        {
+            var filter = Builders<T>.Filter.Eq("_id", id);
+            var resultado = _collection.Find<T>(filter).As<U>().SingleOrDefault();
+
+            return resultado;
+        }
+
     }
 }

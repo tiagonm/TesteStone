@@ -14,51 +14,63 @@ namespace Stone.Imobilizado.UnitTest
 {
     public class ImobilizadoTest
     {
+        Mock<IImobilizadoRepository> _imobilizadoRepository;
+        ImobilizadoService _imobilizadoService;
+        public ImobilizadoTest()
+        {
+            _imobilizadoRepository = new Mock<IImobilizadoRepository>();
+            _imobilizadoService = new ImobilizadoService(_imobilizadoRepository.Object);
+        }
         [Fact]
         public void insert_imobilizado_computador()
         {
-            Mock<IImobilizadoRepository> imobilizadoRepository = new Mock<IImobilizadoRepository>();
-            ImobilizadoService imobilizadoService = new ImobilizadoService(imobilizadoRepository.Object);
-
-            imobilizadoRepository
+            _imobilizadoRepository
                 .Setup(i => i.Add(It.IsAny<ComputadorModel>()));
 
-            var computador = new ComputadorModel {
+            var computador = new ComputadorModel
+            {
                 Nome = "Computador Sala 1",
                 Andar = new AndarModel(),
                 Id = ""
             };
-            imobilizadoService.Add(computador);
+            _imobilizadoService.Add(computador);
 
             Assert.NotEqual(computador.Id, "");
         }
-        //[Fact]
-        //public void update_imobilizado_computador()
-        //{
-        //    Mock<IImobilizadoRepository> imobilizadoRepository = new Mock<IImobilizadoRepository>();
-        //    ImobilizadoService imobilizadoService = new ImobilizadoService(imobilizadoRepository.Object);
+        [Fact]
+        public void get_all_imobilizado_computador()
+        {
+            var listaMock = new List<ComputadorModel>();
 
-        //    var guid = Guid.NewGuid().ToString();
+            listaMock.Add(new ComputadorModel { Id = Guid.NewGuid().ToString(), Nome = "Computador 1" });
+            listaMock.Add(new ComputadorModel { Id = Guid.NewGuid().ToString(), Nome = "Computador 2" });
+            listaMock.Add(new ComputadorModel { Id = Guid.NewGuid().ToString(), Nome = "Computador 3" });
 
-        //    var computador = new Computador {
-        //        Id = guid,
-        //        Nome = "Computador Sala 1"
-        //    };
+            _imobilizadoRepository
+                .Setup(i => i.Get<ComputadorModel>(t => true))
+                .Returns(listaMock);
 
-        //    //imobilizadoRepository
-        //    //    .Setup(i => i.Add(It.IsAny<Computador>()))
-        //    //    .Callback((Computador cp) => cp.);
 
-        //    var computadorAlterado = new Computador
-        //    {
-        //        Nome = "Computador Sala 2",
-        //        Andar = AndarEnum.PrimeiroAndar,
-        //        Id = guid
-        //    };
-        //    imobilizadoService.Update(computadorAlterado);
-        //    //var c = imobilizadoService.Get<Computador>(cp => cp.Id == guid).FirstOrDefault();
+            var listaRetorno = _imobilizadoService.GetAll<ComputadorModel>();
 
-        //    Assert.NotEqual(computador.Id, "");
-        //}
+            Assert.Equal(listaMock.Count, listaRetorno.Count);
+            Assert.Equal(listaMock, listaRetorno);
+        }
+
+        [Fact]
+        public void get_by_id_imobilizado_computador()
+        {
+            var id = Guid.NewGuid().ToString();
+            var computador = new ComputadorModel { Id = id, Nome = "Computador 1" };
+            
+            _imobilizadoRepository
+                .Setup(i => i.GetById<ComputadorModel>(id))
+                .Returns(computador);
+
+            var computadorRetorno = _imobilizadoService.GetById<ComputadorModel>(id);
+
+            Assert.Equal(computadorRetorno.Id, id);
+            Assert.Equal(computadorRetorno.Nome, "Computador 1");
+        }
     }
 }

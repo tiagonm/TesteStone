@@ -10,5 +10,6 @@ namespace Stone.Imobilizado.Repository
         void Delete(Expression<Func<T, string>> queryExpression, string id);
         void Update(Expression<Func<T, string>> queryExpression, T entity, string id);
         List<_T> Get<_T>(Expression<Func<T, bool>> filter = null);
+        U GetById<U>(string id);
     }
 }

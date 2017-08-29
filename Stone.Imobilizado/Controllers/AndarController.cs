@@ -17,6 +17,7 @@ namespace Stone.Imobilizado.Controllers
         }
 
         [HttpDelete]
+        [Route("api/andar/{id}")]
         public IHttpActionResult Delete(string id)
         {
             IHttpActionResult result = null;
@@ -34,6 +35,7 @@ namespace Stone.Imobilizado.Controllers
         }
 
         [HttpGet]
+        [Route("api/andar")]
         // GET api/<controller>
         public IEnumerable<AndarModel> Get()
         {
@@ -51,7 +53,7 @@ namespace Stone.Imobilizado.Controllers
             return listaAndar;
         }
         [HttpGet]
-        // GET api/<controller>/5
+        [Route("api/andar/{id}")]
         public AndarModel Get(string id)
         {
             AndarModel andarModel = null;
@@ -67,7 +69,7 @@ namespace Stone.Imobilizado.Controllers
             return andarModel;
         }
         [HttpPost]
-        // POST api/<controller>
+        [Route("api/andar")]
         public IHttpActionResult Post([FromBody]AndarModel andarModel)
         {
             IHttpActionResult result = null;
@@ -85,6 +87,7 @@ namespace Stone.Imobilizado.Controllers
         }
 
         [HttpPut]
+        [Route("api/andar")]
         public IHttpActionResult Put([FromBody]AndarModel andar)
         {
             IHttpActionResult result = null;

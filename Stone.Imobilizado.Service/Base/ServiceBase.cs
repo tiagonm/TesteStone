@@ -40,7 +40,8 @@ namespace Stone.Imobilizado.Service.Base
 
         public _T GetById<_T>(string id)
         {
-            return _repository.Get<_T>(o => o.Id == id).FirstOrDefault();            
+            return _repository.GetById<_T>(id);
+            // return _repository.Get<_T>(o => o.Id == id).FirstOrDefault();            
         }
 
         public virtual void Update(T entity)

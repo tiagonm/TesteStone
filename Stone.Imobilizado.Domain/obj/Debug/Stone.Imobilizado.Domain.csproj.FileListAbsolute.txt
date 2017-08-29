@@ -1,0 +1,5 @@
+C:\TesteStone\Stone.Imobilizado.Domain\bin\Debug\Stone.Imobilizado.Domain.dll
+C:\TesteStone\Stone.Imobilizado.Domain\bin\Debug\Stone.Imobilizado.Domain.pdb
+C:\TesteStone\Stone.Imobilizado.Domain\obj\Debug\Stone.Imobilizado.Domain.csprojResolveAssemblyReference.cache
+C:\TesteStone\Stone.Imobilizado.Domain\obj\Debug\Stone.Imobilizado.Domain.dll
+C:\TesteStone\Stone.Imobilizado.Domain\obj\Debug\Stone.Imobilizado.Domain.pdb
