@@ -1,0 +1,1 @@
+*/"Microsoft.FileSystem.ProcessFile"("C:\TesteStone\ModelingProject1\LayerDiagram1.layerdiagram")/ + FilePath.Equals("C:\TesteStone\ModelingProject1\LayerDiagram1.layerdiagram")/"LayerDesigner.LoadArchitecture"/ */"Microsoft.AllNodes"

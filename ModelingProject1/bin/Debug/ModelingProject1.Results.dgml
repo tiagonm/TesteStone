@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="@8" Category="Node.Error" Description="AV0001 : Invalid Dependency : Stone.Imobilizado(Assembly) --&gt; Stone.Imobilizado.Repository(Assembly)&#xD;&#xA;    Layers: Stone.Imobilizado, Stone.Imobilizado.Repository   |   Dependencies: References" Dsl.DependencyTargetLayer="18a02482-6036-4cbd-a4df-5833c473d69f" Dsl.DependencySourceLayer="569cee17-6e99-4e82-aa93-0dab0bebf129" ErrorLevel="Error" Label="Validation Error: Invalid Dependency" />
+    <Node Id="@3" Category="CodeSchema_Assembly" CodeSchemaProperty_StrongName="Stone.Imobilizado, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" FilePath="C:\TesteStone\Stone.Imobilizado\bin\Stone.Imobilizado.dll" Visibility="Hidden" Label="Stone.Imobilizado.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="569cee17-6e99-4e82-aa93-0dab0bebf129" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Stone.Imobilizado" Visibility="Hidden" Label="Stone.Imobilizado" />
+    <Node Id="@5" Category="CodeSchema_Assembly" FilePath="C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\Stone.Imobilizado.Repository.dll" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="Stone.Imobilizado.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Visibility="Hidden" Label="C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\Stone.Imobilizado.Repository.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="18a02482-6036-4cbd-a4df-5833c473d69f" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Stone.Imobilizado.Repository" Visibility="Hidden" Label="Stone.Imobilizado.Repository" />
+    <Node Id="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Category="Dsl.LayerModel" Dsl.DiagramPath="C:\TesteStone\ModelingProject1\LayerDiagram1.layerdiagram" Dsl.QualifiedName="" Visibility="Hidden" Label="LayerDiagram1" />
+    <Node Id="@11" Category="Node.Error" Description="AV0001 : Invalid Dependency : Stone.Imobilizado.IOC(Assembly) --&gt; Stone.Imobilizado.Repository(Assembly)&#xD;&#xA;    Layers: Stone.Imobilizado.IOC, Stone.Imobilizado.Repository   |   Dependencies: References" Dsl.DependencyTargetLayer="18a02482-6036-4cbd-a4df-5833c473d69f" Dsl.DependencySourceLayer="16fa5ccc-9162-43cb-920d-a1cf169e87fc" ErrorLevel="Error" Label="Validation Error: Invalid Dependency" />
+    <Node Id="@10" Category="CodeSchema_Assembly" FilePath="C:\TesteStone\Stone.Imobilizado.IOC\bin\Debug\Stone.Imobilizado.IOC.dll" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="Stone.Imobilizado.IOC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Visibility="Hidden" Label="C:\TesteStone\Stone.Imobilizado.IOC\bin\Debug\Stone.Imobilizado.IOC.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="16fa5ccc-9162-43cb-920d-a1cf169e87fc" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Stone.Imobilizado.IOC" Visibility="Hidden" Label="Stone.Imobilizado.IOC" />
+    <Node Id="@14" Category="Node.Error" Description="AV0001 : Invalid Dependency : Stone.Imobilizado.IOC(Assembly) --&gt; Stone.Imobilizado.Service(Assembly)&#xD;&#xA;    Layers: Stone.Imobilizado.IOC, Stone.Imobilizado.Service   |   Dependencies: References" Dsl.DependencyTargetLayer="122acedf-3b4a-411c-8bad-cf160601ad9e" Dsl.DependencySourceLayer="16fa5ccc-9162-43cb-920d-a1cf169e87fc" ErrorLevel="Error" Label="Validation Error: Invalid Dependency" />
+    <Node Id="@13" Category="CodeSchema_Assembly" FilePath="C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\Stone.Imobilizado.Service.dll" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="Stone.Imobilizado.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Visibility="Hidden" Label="C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\Stone.Imobilizado.Service.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="122acedf-3b4a-411c-8bad-cf160601ad9e" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Stone.Imobilizado.Service" Visibility="Hidden" Label="Stone.Imobilizado.Service" />
+    <Node Id="@15" Category="Node.Error" Description="AV0001 : Invalid Dependency : Stone.Imobilizado.Service(Assembly) --&gt; Stone.Imobilizado.Repository(Assembly)&#xD;&#xA;    Layers: Stone.Imobilizado.Service, Stone.Imobilizado.Repository   |   Dependencies: References" Dsl.DependencyTargetLayer="18a02482-6036-4cbd-a4df-5833c473d69f" Dsl.DependencySourceLayer="122acedf-3b4a-411c-8bad-cf160601ad9e" ErrorLevel="Error" Label="Validation Error: Invalid Dependency" />
+    <Node Id="@18" Category="Node.Error" Description="AV0001 : Invalid Dependency : Stone.Imobilizado.UnitTest(Assembly) --&gt; Stone.Imobilizado.Repository(Assembly)&#xD;&#xA;    Layers: Stone.Imobilizado.UnitTest, Stone.Imobilizado.Repository   |   Dependencies: References" Dsl.DependencyTargetLayer="18a02482-6036-4cbd-a4df-5833c473d69f" Dsl.DependencySourceLayer="b2559426-89bd-43a1-a56f-221e6266c853" ErrorLevel="Error" Label="Validation Error: Invalid Dependency" />
+    <Node Id="@17" Category="CodeSchema_Assembly" CodeSchemaProperty_StrongName="Stone.Imobilizado.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" FilePath="C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\Stone.Imobilizado.UnitTest.dll" Visibility="Hidden" Label="C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\Stone.Imobilizado.UnitTest.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="b2559426-89bd-43a1-a56f-221e6266c853" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Stone.Imobilizado.UnitTest" Visibility="Hidden" Label="Stone.Imobilizado.UnitTest" />
+    <Node Id="@19" Category="Node.Error" Description="AV0001 : Invalid Dependency : Stone.Imobilizado.UnitTest(Assembly) --&gt; Stone.Imobilizado.Service(Assembly)&#xD;&#xA;    Layers: Stone.Imobilizado.UnitTest, Stone.Imobilizado.Service   |   Dependencies: References" Dsl.DependencyTargetLayer="122acedf-3b4a-411c-8bad-cf160601ad9e" Dsl.DependencySourceLayer="b2559426-89bd-43a1-a56f-221e6266c853" ErrorLevel="Error" Label="Validation Error: Invalid Dependency" />
+  </Nodes>
+  <Links>
+    <Link Source="@8" Target="@3" Category="LayerDesigner.ErrorSource" IsPrimaryInNavigation="True" IsHiddenInNavigation="True" />
+    <Link Source="@8" Target="569cee17-6e99-4e82-aa93-0dab0bebf129" Category="LayerDesigner.ErrorSource" IsHiddenInNavigation="True" />
+    <Link Source="@8" Target="@5" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@8" Target="18a02482-6036-4cbd-a4df-5833c473d69f" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@8" Target="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Category="LayerDesigner.ErrorLayerModel" IsHiddenInNavigation="True" />
+    <Link Source="@11" Target="@10" Category="LayerDesigner.ErrorSource" IsPrimaryInNavigation="True" IsHiddenInNavigation="True" />
+    <Link Source="@11" Target="16fa5ccc-9162-43cb-920d-a1cf169e87fc" Category="LayerDesigner.ErrorSource" IsHiddenInNavigation="True" />
+    <Link Source="@11" Target="@5" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@11" Target="18a02482-6036-4cbd-a4df-5833c473d69f" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@11" Target="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Category="LayerDesigner.ErrorLayerModel" IsHiddenInNavigation="True" />
+    <Link Source="@14" Target="@10" Category="LayerDesigner.ErrorSource" IsPrimaryInNavigation="True" IsHiddenInNavigation="True" />
+    <Link Source="@14" Target="16fa5ccc-9162-43cb-920d-a1cf169e87fc" Category="LayerDesigner.ErrorSource" IsHiddenInNavigation="True" />
+    <Link Source="@14" Target="@13" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@14" Target="122acedf-3b4a-411c-8bad-cf160601ad9e" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@14" Target="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Category="LayerDesigner.ErrorLayerModel" IsHiddenInNavigation="True" />
+    <Link Source="@15" Target="@13" Category="LayerDesigner.ErrorSource" IsPrimaryInNavigation="True" IsHiddenInNavigation="True" />
+    <Link Source="@15" Target="122acedf-3b4a-411c-8bad-cf160601ad9e" Category="LayerDesigner.ErrorSource" IsHiddenInNavigation="True" />
+    <Link Source="@15" Target="@5" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@15" Target="18a02482-6036-4cbd-a4df-5833c473d69f" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@15" Target="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Category="LayerDesigner.ErrorLayerModel" IsHiddenInNavigation="True" />
+    <Link Source="@18" Target="@17" Category="LayerDesigner.ErrorSource" IsPrimaryInNavigation="True" IsHiddenInNavigation="True" />
+    <Link Source="@18" Target="b2559426-89bd-43a1-a56f-221e6266c853" Category="LayerDesigner.ErrorSource" IsHiddenInNavigation="True" />
+    <Link Source="@18" Target="@5" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@18" Target="18a02482-6036-4cbd-a4df-5833c473d69f" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@18" Target="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Category="LayerDesigner.ErrorLayerModel" IsHiddenInNavigation="True" />
+    <Link Source="@19" Target="@17" Category="LayerDesigner.ErrorSource" IsPrimaryInNavigation="True" IsHiddenInNavigation="True" />
+    <Link Source="@19" Target="b2559426-89bd-43a1-a56f-221e6266c853" Category="LayerDesigner.ErrorSource" IsHiddenInNavigation="True" />
+    <Link Source="@19" Target="@13" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@19" Target="122acedf-3b4a-411c-8bad-cf160601ad9e" Category="LayerDesigner.ErrorTarget" IsHiddenInNavigation="True" />
+    <Link Source="@19" Target="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Category="LayerDesigner.ErrorLayerModel" IsHiddenInNavigation="True" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" NavigationActionLabel="Assemblies" Icon="CodeSchema_Assembly" DefaultAction="Microsoft.Contains" CanBeDataDriven="True" />
+    <Category Id="Dsl.Layer" Label="Layer" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Layer" />
+    <Category Id="Dsl.LayerModel" Label="Layer Model" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Layer Model" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" NavigationActionLabel="Files" DefaultAction="Microsoft.Contains" Icon="File" />
+    <Category Id="FileSystem.Category.FileOfType.dll" BasedOn="CodeSchema_Assembly" IsProviderRoot="False" CanBeDataDriven="True" />
+    <Category Id="LayerDesigner.ErrorLayerModel" Label="Error" BasedOn="Link.Error" OutgoingActionLabel="Error" IncomingActionLabel="Error" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" />
+    <Category Id="LayerDesigner.ErrorSource" Label="Error" BasedOn="Link.Error" OutgoingActionLabel="Error" IncomingActionLabel="Error" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" />
+    <Category Id="LayerDesigner.ErrorTarget" Label="Error" BasedOn="Link.Error" OutgoingActionLabel="Error" IncomingActionLabel="Error" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" />
+    <Category Id="Link.Error" Label="Error" OutgoingActionLabel="Error" IncomingActionLabel="Error" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" />
+    <Category Id="Node.Error" Label="Error" NavigationActionLabel="Error" IsProviderRoot="False" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Description" Label="Description" Description="Description" DataType="System.String" />
+    <Property Id="Dsl.DependencyTargetLayer" DataType="System.String" />
+    <Property Id="Dsl.DependencySourceLayer" DataType="System.String" />
+    <Property Id="ErrorLevel" Label="Error Level" Description="Used to associate an error level with a node or link in the graph" Group="Analysis" DataType="Microsoft.VisualStudio.Progression.ErrorLevel" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Dsl.ForbiddenNamespaceDependencies" DataType="System.String" />
+    <Property Id="Dsl.ForbiddenNamespace" DataType="System.String" />
+    <Property Id="Dsl.RequiredNamespace" DataType="System.String" />
+    <Property Id="Dsl.QualifiedName" DataType="System.String" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="Is External" Description="Flag indicating whether this node is considered external" DataType="System.Boolean" />
+    <Property Id="Dsl.DiagramPath" DataType="System.String" />
+    <Property Id="IsPrimaryInNavigation" DataType="System.Boolean" />
+    <Property Id="IsHiddenInNavigation" DataType="System.Boolean" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ErrorName" Label="ErrorName" ValueType="System.String" />
+    <Name Id="SourceArtifact" Label="SourceArtifact" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="TargetArtifact" Label="TargetArtifact" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Name Id="SourceLayer" Label="SourceLayer" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Name Id="TargetLayer" Label="TargetLayer" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Id="ErrorName=DependencyValidationError" />
+    <Alias n="2" Uri="Assembly=Stone.Imobilizado" />
+    <Alias n="3" Id="(@2)" />
+    <Alias n="4" Uri="Assembly=Stone.Imobilizado.Repository" />
+    <Alias n="5" Id="(@4)" />
+    <Alias n="6" Id="TargetArtifact=@5" />
+    <Alias n="7" Id="TargetLayer=18a02482-6036-4cbd-a4df-5833c473d69f" />
+    <Alias n="8" Id="(@1 SourceArtifact=@3 @6 SourceLayer=569cee17-6e99-4e82-aa93-0dab0bebf129 @7)" />
+    <Alias n="9" Uri="Assembly=Stone.Imobilizado.IOC" />
+    <Alias n="10" Id="(@9)" />
+    <Alias n="11" Id="(@1 SourceArtifact=@10 @6 SourceLayer=16fa5ccc-9162-43cb-920d-a1cf169e87fc @7)" />
+    <Alias n="12" Uri="Assembly=Stone.Imobilizado.Service" />
+    <Alias n="13" Id="(@12)" />
+    <Alias n="14" Id="(@1 SourceArtifact=@10 TargetArtifact=@13 SourceLayer=16fa5ccc-9162-43cb-920d-a1cf169e87fc TargetLayer=122acedf-3b4a-411c-8bad-cf160601ad9e)" />
+    <Alias n="15" Id="(@1 SourceArtifact=@13 @6 SourceLayer=122acedf-3b4a-411c-8bad-cf160601ad9e @7)" />
+    <Alias n="16" Uri="Assembly=Stone.Imobilizado.UnitTest" />
+    <Alias n="17" Id="(@16)" />
+    <Alias n="18" Id="(@1 SourceArtifact=@17 @6 SourceLayer=b2559426-89bd-43a1-a56f-221e6266c853 @7)" />
+    <Alias n="19" Id="(@1 SourceArtifact=@17 TargetArtifact=@13 SourceLayer=b2559426-89bd-43a1-a56f-221e6266c853 TargetLayer=122acedf-3b4a-411c-8bad-cf160601ad9e)" />
+  </IdentifierAliases>
+</DirectedGraph>

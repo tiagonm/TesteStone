@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="File" FilePath="C:\TesteStone\ModelingProject1\LayerDiagram1.layerdiagram" Label="LayerDiagram1.layerdiagram" />
+    <Node Id="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Category="Dsl.LayerModel" Dsl.DiagramPath="C:\TesteStone\ModelingProject1\LayerDiagram1.layerdiagram" Dsl.QualifiedName="" Label="LayerDiagram1" />
+    <Node Id="569cee17-6e99-4e82-aa93-0dab0bebf129" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Stone.Imobilizado" Label="Stone.Imobilizado" />
+    <Node Id="16fa5ccc-9162-43cb-920d-a1cf169e87fc" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Stone.Imobilizado.IOC" Label="Stone.Imobilizado.IOC" />
+    <Node Id="18a02482-6036-4cbd-a4df-5833c473d69f" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Stone.Imobilizado.Repository" Label="Stone.Imobilizado.Repository" />
+    <Node Id="122acedf-3b4a-411c-8bad-cf160601ad9e" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Stone.Imobilizado.Service" Label="Stone.Imobilizado.Service" />
+    <Node Id="b2559426-89bd-43a1-a56f-221e6266c853" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Stone.Imobilizado.UnitTest" Label="Stone.Imobilizado.UnitTest" />
+    <Node Id="ab800646-babe-4f45-9815-3441db2bfd5f" Category="Dsl.Reference" Dsl.SupportsValidation="True" Dsl.QualifiedName="Stone.Imobilizado.Stone.Imobilizado" Label="Stone.Imobilizado" />
+    <Node Id="(@2)" />
+    <Node Id="6e10d867-fdcb-49f8-8830-b8825f94d59e" Category="Dsl.Reference" Dsl.SupportsValidation="True" Dsl.QualifiedName="Stone.Imobilizado.IOC.Stone.Imobilizado.IOC" Label="Stone.Imobilizado.IOC" />
+    <Node Id="(@3)" />
+    <Node Id="cd91db37-40b6-4817-83c1-eb272a19d308" Category="Dsl.Reference" Dsl.SupportsValidation="True" Dsl.QualifiedName="Stone.Imobilizado.Repository.Stone.Imobilizado.Repository" Label="Stone.Imobilizado.Repository" />
+    <Node Id="(@4)" />
+    <Node Id="cc1f8041-28b4-433c-9993-bf87e0607ceb" Category="Dsl.Reference" Dsl.SupportsValidation="True" Dsl.QualifiedName="Stone.Imobilizado.Service.Stone.Imobilizado.Service" Label="Stone.Imobilizado.Service" />
+    <Node Id="(@5)" />
+    <Node Id="f7afc307-48cc-46c8-8d9f-5ee9d2a27303" Category="Dsl.Reference" Dsl.SupportsValidation="True" Dsl.QualifiedName="Stone.Imobilizado.UnitTest.Stone.Imobilizado.UnitTest" Label="Stone.Imobilizado.UnitTest" />
+    <Node Id="(@6)" />
+  </Nodes>
+  <Links>
+    <Link Source="ab800646-babe-4f45-9815-3441db2bfd5f" Target="(@2)" Category="Produces">
+      <Category Ref="Represents" />
+    </Link>
+    <Link Source="6e10d867-fdcb-49f8-8830-b8825f94d59e" Target="(@3)" Category="Produces">
+      <Category Ref="Represents" />
+    </Link>
+    <Link Source="cd91db37-40b6-4817-83c1-eb272a19d308" Target="(@4)" Category="Produces">
+      <Category Ref="Represents" />
+    </Link>
+    <Link Source="cc1f8041-28b4-433c-9993-bf87e0607ceb" Target="(@5)" Category="Produces">
+      <Category Ref="Represents" />
+    </Link>
+    <Link Source="f7afc307-48cc-46c8-8d9f-5ee9d2a27303" Target="(@6)" Category="Produces">
+      <Category Ref="Represents" />
+    </Link>
+    <Link Source="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Target="569cee17-6e99-4e82-aa93-0dab0bebf129" Category="Dsl.LayerModelHasLayers" />
+    <Link Source="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Target="16fa5ccc-9162-43cb-920d-a1cf169e87fc" Category="Dsl.LayerModelHasLayers" />
+    <Link Source="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Target="18a02482-6036-4cbd-a4df-5833c473d69f" Category="Dsl.LayerModelHasLayers" />
+    <Link Source="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Target="122acedf-3b4a-411c-8bad-cf160601ad9e" Category="Dsl.LayerModelHasLayers" />
+    <Link Source="dde3499c-41d0-4de9-857c-bb5d5d8db98f" Target="b2559426-89bd-43a1-a56f-221e6266c853" Category="Dsl.LayerModelHasLayers" />
+    <Link Source="569cee17-6e99-4e82-aa93-0dab0bebf129" Target="ab800646-babe-4f45-9815-3441db2bfd5f" Category="Dsl.LayerHasReferences" />
+    <Link Source="16fa5ccc-9162-43cb-920d-a1cf169e87fc" Target="6e10d867-fdcb-49f8-8830-b8825f94d59e" Category="Dsl.LayerHasReferences" />
+    <Link Source="18a02482-6036-4cbd-a4df-5833c473d69f" Target="cd91db37-40b6-4817-83c1-eb272a19d308" Category="Dsl.LayerHasReferences" />
+    <Link Source="122acedf-3b4a-411c-8bad-cf160601ad9e" Target="cc1f8041-28b4-433c-9993-bf87e0607ceb" Category="Dsl.LayerHasReferences" />
+    <Link Source="b2559426-89bd-43a1-a56f-221e6266c853" Target="f7afc307-48cc-46c8-8d9f-5ee9d2a27303" Category="Dsl.LayerHasReferences" />
+    <Link Source="569cee17-6e99-4e82-aa93-0dab0bebf129" Target="122acedf-3b4a-411c-8bad-cf160601ad9e" Category="Dsl.DependencyFromLayerToLayer" Dsl.Direction="Forward" />
+    <Link Source="569cee17-6e99-4e82-aa93-0dab0bebf129" Target="16fa5ccc-9162-43cb-920d-a1cf169e87fc" Category="Dsl.DependencyFromLayerToLayer" Dsl.Direction="Forward" />
+  </Links>
+  <Categories>
+    <Category Id="Dsl.DependencyFromLayerToLayer" Label="Dependency From Layer To Layer" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Dependency from Layers" OutgoingActionLabel="Dependency to Layers" />
+    <Category Id="Dsl.Layer" Label="Layer" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Layer" />
+    <Category Id="Dsl.LayerHasReferences" Label="Layer Has References" IsContainment="True" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Layer" OutgoingActionLabel="References" />
+    <Category Id="Dsl.LayerModel" Label="Layer Model" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Layer Model" />
+    <Category Id="Dsl.LayerModelHasLayers" Label="Layer Model Has Layers" IsContainment="True" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Layer Model" OutgoingActionLabel="Layers" />
+    <Category Id="Dsl.Reference" Label="Reference" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Reference" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" NavigationActionLabel="Files" DefaultAction="Microsoft.Contains" />
+    <Category Id="Produces" Label="Produces" OutgoingActionLabel="Produces" IncomingActionLabel="Produced By" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" />
+    <Category Id="Represents" Label="Represents" OutgoingActionLabel="Represents" IncomingActionLabel="Represented By" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IsContainment="True" />
+  </Categories>
+  <Properties>
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Dsl.DiagramPath" DataType="System.String" />
+    <Property Id="Dsl.QualifiedName" DataType="System.String" />
+    <Property Id="Dsl.ForbiddenNamespaceDependencies" DataType="System.String" />
+    <Property Id="Dsl.ForbiddenNamespace" DataType="System.String" />
+    <Property Id="Dsl.RequiredNamespace" DataType="System.String" />
+    <Property Id="Dsl.SupportsValidation" DataType="System.Boolean" />
+    <Property Id="Dsl.Direction" DataType="System.String" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=file:///C:/TesteStone/ModelingProject1/LayerDiagram1.layerdiagram" />
+    <Alias n="2" Uri="Assembly=Stone.Imobilizado" />
+    <Alias n="3" Uri="Assembly=Stone.Imobilizado.IOC" />
+    <Alias n="4" Uri="Assembly=Stone.Imobilizado.Repository" />
+    <Alias n="5" Uri="Assembly=Stone.Imobilizado.Service" />
+    <Alias n="6" Uri="Assembly=Stone.Imobilizado.UnitTest" />
+  </IdentifierAliases>
+</DirectedGraph>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\Stone.Imobilizado.IOC\Stone.Imobilizado.IOC.csproj" Label="C:\TesteStone\Stone.Imobilizado.IOC\Stone.Imobilizado.IOC.csproj" />
+    <Node Id="@3" Category="CodeSchema_Assembly" FilePath="$(9412f0c6-e847-4a74-9738-90299a91b598.OutputPath)" Label="C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\Stone.Imobilizado.Repository.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="(@4)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\Stone.Imobilizado.Service\Stone.Imobilizado.Service.csproj" Label="C:\TesteStone\Stone.Imobilizado.Service\Stone.Imobilizado.Service.csproj" />
+    <Node Id="(@5)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\Stone.Imobilizado\Stone.Imobilizado.csproj" Label="C:\TesteStone\Stone.Imobilizado\Stone.Imobilizado.csproj" />
+    <Node Id="(@6)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\Stone.Imobilizado.UnitTest\Stone.Imobilizado.UnitTest.csproj" Label="C:\TesteStone\Stone.Imobilizado.UnitTest\Stone.Imobilizado.UnitTest.csproj" />
+    <Node Id="(@7)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\Stone.Imobilizado.Repository\Stone.Imobilizado.Repository.csproj" Label="C:\TesteStone\Stone.Imobilizado.Repository\Stone.Imobilizado.Repository.csproj" />
+    <Node Id="@9" Category="CodeSchema_Assembly" CodeSchemaProperty_StrongName="Stone.Imobilizado.IOC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" FilePath="$(22b5f486-4571-474e-955f-ca2afa8d4021.OutputPath)" Label="Stone.Imobilizado.IOC.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@11" Category="CodeSchema_Assembly" FilePath="$(233f5dd4-55a9-4887-a922-c7910b31c1b6.OutputPath)" Label="C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\Stone.Imobilizado.Service.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="(@12)" Category="CodeSchema_Assembly" FilePath="$(45e73eb1-432c-48e2-af95-6e1ec22d518d.OutputPath)" Label="C:\TesteStone\Stone.Imobilizado\bin\Stone.Imobilizado.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="(@13)" Category="CodeSchema_Assembly" FilePath="$(484abcad-db4f-49f3-b4de-4a99818b1636.OutputPath)" Label="C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\Stone.Imobilizado.UnitTest.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="(@14)" Category="CodeSchema_Assembly" CodeSchemaProperty_StrongName="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Label="mscorlib.dll" />
+    <Node Id="(@15)" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="SimpleInjector, Version=4.0.8.0, Culture=neutral, PublicKeyToken=984cb50dea722e99" Label="SimpleInjector.dll" />
+    <Node Id="@3" Category="CodeSchema_Assembly" CodeSchemaProperty_StrongName="Stone.Imobilizado.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Label="Stone.Imobilizado.Repository.dll" />
+    <Node Id="@11" Category="CodeSchema_Assembly" CodeSchemaProperty_StrongName="Stone.Imobilizado.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Label="Stone.Imobilizado.Service.dll" />
+    <Node Id="@16" Category="CodeSchema_Type" CodeSchemaProperty_IsPublic="True" Label="SimpleInjectorContainer" />
+    <Node Id="@17" Category="CodeSchema_Namespace" Label="Stone" />
+    <Node Id="@18" Category="CodeSchema_Namespace" Label="Stone.Imobilizado" />
+    <Node Id="@19" Category="CodeSchema_Namespace" Label="Stone.Imobilizado.IOC" />
+    <Node Id="(@8 Namespace=Stone.Imobilizado.IOC Type=SimpleInjectorContainer Member=RegisterServices)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="RegisterServices" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1)" Target="@9" Category="Produces" />
+    <Link Source="(@4)" Target="@11" Category="Produces" />
+    <Link Source="(@5)" Target="(@12)" Category="Produces" />
+    <Link Source="(@6)" Target="(@13)" Category="Produces" />
+    <Link Source="(@7)" Target="@3" Category="Produces" />
+    <Link Source="@9" Target="(@14)" Category="References" />
+    <Link Source="@9" Target="(@15)" Category="References" />
+    <Link Source="@9" Target="@3" Category="References" />
+    <Link Source="@9" Target="@11" Category="References" />
+    <Link Source="@9" Target="@17" Category="CodeSchema_NamespaceReference" />
+    <Link Source="@17" Target="@18" Category="Contains" />
+    <Link Source="@9" Target="@18" Category="CodeSchema_NamespaceReference" />
+    <Link Source="@18" Target="@19" Category="Contains" />
+    <Link Source="@9" Target="@19" Category="CodeSchema_NamespaceReference" />
+    <Link Source="@19" Target="@16" Category="Contains" />
+    <Link Source="@9" Target="@16" Category="Contains" />
+    <Link Source="@16" Target="(@8 Namespace=Stone.Imobilizado.IOC Type=SimpleInjectorContainer Member=RegisterServices)" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" NavigationActionLabel="Assemblies" Icon="CodeSchema_Assembly" DefaultAction="Microsoft.Contains" CanBeDataDriven="True" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" NavigationActionLabel="Members" DefaultAction="Microsoft.Contains" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" NavigationActionLabel="Methods" DefaultAction="Link:Forward:CodeSchema_Calls" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" NavigationActionLabel="Namespaces" DefaultAction="Node:Both:CodeSchema_Type" />
+    <Category Id="CodeSchema_NamespaceReference" Label="Namespace Reference" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Namespace Reference Source" OutgoingActionLabel="Referenced Namespaces" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" NavigationActionLabel="Types" DefaultAction="Node:Both:CodeSchema_Member" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" IsContainment="True" IncomingActionLabel="Contained By" OutgoingActionLabel="Contains" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="False" />
+    <Category Id="File" Label="File" NavigationActionLabel="Files" Icon="File" DefaultAction="Microsoft.Contains" CanBeDataDriven="True" />
+    <Category Id="FileSystem.Category.FileOfType.dll" BasedOn="CodeSchema_Assembly" IsProviderRoot="False" CanBeDataDriven="True" />
+    <Category Id="Produces" Label="Produces" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Produced By" OutgoingActionLabel="Produces" />
+    <Category Id="References" Label="References" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="ConfigurationName" Label="ConfigurationName" Description="ConfigurationName" DataType="System.String" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="Is External" Description="Flag indicating whether this node is considered external" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/Stone.Imobilizado.IOC/Stone.Imobilizado.IOC.csproj" />
+    <Alias n="2" Uri="Assembly=Stone.Imobilizado.Repository" />
+    <Alias n="3" Id="(@2)" />
+    <Alias n="4" Uri="Assembly=$(VsSolutionUri)/Stone.Imobilizado.Service/Stone.Imobilizado.Service.csproj" />
+    <Alias n="5" Uri="Assembly=$(VsSolutionUri)/Stone.Imobilizado/Stone.Imobilizado.csproj" />
+    <Alias n="6" Uri="Assembly=$(VsSolutionUri)/Stone.Imobilizado.UnitTest/Stone.Imobilizado.UnitTest.csproj" />
+    <Alias n="7" Uri="Assembly=$(VsSolutionUri)/Stone.Imobilizado.Repository/Stone.Imobilizado.Repository.csproj" />
+    <Alias n="8" Uri="Assembly=Stone.Imobilizado.IOC" />
+    <Alias n="9" Id="(@8)" />
+    <Alias n="10" Uri="Assembly=Stone.Imobilizado.Service" />
+    <Alias n="11" Id="(@10)" />
+    <Alias n="12" Uri="Assembly=Stone.Imobilizado" />
+    <Alias n="13" Uri="Assembly=Stone.Imobilizado.UnitTest" />
+    <Alias n="14" Uri="Assembly=mscorlib" />
+    <Alias n="15" Uri="Assembly=SimpleInjector" />
+    <Alias n="16" Id="(@8 Namespace=Stone.Imobilizado.IOC Type=SimpleInjectorContainer)" />
+    <Alias n="17" Id="(Namespace=Stone)" />
+    <Alias n="18" Id="(Namespace=Stone.Imobilizado)" />
+    <Alias n="19" Id="(Namespace=Stone.Imobilizado.IOC)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="22b5f486-4571-474e-955f-ca2afa8d4021.OutputPath" Value="C:\TesteStone\Stone.Imobilizado.IOC\bin\Debug\Stone.Imobilizado.IOC.dll" />
+    <Path Id="233f5dd4-55a9-4887-a922-c7910b31c1b6.OutputPath" Value="C:\TesteStone\Stone.Imobilizado.Service\bin\Debug\Stone.Imobilizado.Service.dll" />
+    <Path Id="45e73eb1-432c-48e2-af95-6e1ec22d518d.OutputPath" Value="C:\TesteStone\Stone.Imobilizado\bin\Stone.Imobilizado.dll" />
+    <Path Id="484abcad-db4f-49f3-b4de-4a99818b1636.OutputPath" Value="C:\TesteStone\Stone.Imobilizado.UnitTest\bin\Debug\Stone.Imobilizado.UnitTest.dll" />
+    <Path Id="9412f0c6-e847-4a74-9738-90299a91b598.OutputPath" Value="C:\TesteStone\Stone.Imobilizado.Repository\bin\Debug\Stone.Imobilizado.Repository.dll" />
+    <Path Id="VsSolution" Value="C:\TesteStone" />
+    <Path Id="VsSolutionUri" Value="file:///C:/TesteStone" />
+  </Paths>
+</DirectedGraph>

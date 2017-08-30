@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="dde3499c-41d0-4de9-857c-bb5d5d8db98f" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="569cee17-6e99-4e82-aa93-0dab0bebf129" name="Stone.Imobilizado">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="83c11064-b68a-4c15-a645-57b6211f8d3a" direction="Forward">
+          <layerMoniker Id="122acedf-3b4a-411c-8bad-cf160601ad9e" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="5c88cdcc-a0d7-4c86-bace-4f75267b156f" direction="Forward">
+          <layerMoniker Id="16fa5ccc-9162-43cb-920d-a1cf169e87fc" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="ab800646-babe-4f45-9815-3441db2bfd5f" name="Stone.Imobilizado">
+          <ArtifactNode Label="Stone.Imobilizado" Category="CodeSchema_Project" Id="(Assembly=../Stone.Imobilizado/Stone.Imobilizado.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Stone.Imobilizado)" Label="Stone.Imobilizado.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="16fa5ccc-9162-43cb-920d-a1cf169e87fc" name="Stone.Imobilizado.IOC">
+      <references>
+        <reference Id="6e10d867-fdcb-49f8-8830-b8825f94d59e" name="Stone.Imobilizado.IOC">
+          <ArtifactNode Label="Stone.Imobilizado.IOC" Category="CodeSchema_Project" Id="(Assembly=../Stone.Imobilizado.IOC/Stone.Imobilizado.IOC.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Stone.Imobilizado.IOC)" Label="Stone.Imobilizado.IOC.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="18a02482-6036-4cbd-a4df-5833c473d69f" name="Stone.Imobilizado.Repository">
+      <references>
+        <reference Id="cd91db37-40b6-4817-83c1-eb272a19d308" name="Stone.Imobilizado.Repository">
+          <ArtifactNode Label="Stone.Imobilizado.Repository" Category="CodeSchema_Project" Id="(Assembly=../Stone.Imobilizado.Repository/Stone.Imobilizado.Repository.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Stone.Imobilizado.Repository)" Label="Stone.Imobilizado.Repository.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="122acedf-3b4a-411c-8bad-cf160601ad9e" name="Stone.Imobilizado.Service">
+      <references>
+        <reference Id="cc1f8041-28b4-433c-9993-bf87e0607ceb" name="Stone.Imobilizado.Service">
+          <ArtifactNode Label="Stone.Imobilizado.Service" Category="CodeSchema_Project" Id="(Assembly=../Stone.Imobilizado.Service/Stone.Imobilizado.Service.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Stone.Imobilizado.Service)" Label="Stone.Imobilizado.Service.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="b2559426-89bd-43a1-a56f-221e6266c853" name="Stone.Imobilizado.UnitTest">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="29cc40ff-bd31-41b5-987c-f2ff848de385" direction="Forward">
+          <layerMoniker Id="18a02482-6036-4cbd-a4df-5833c473d69f" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="02aad509-d94e-4b45-9dd8-e5918a057ff4" direction="Forward">
+          <layerMoniker Id="122acedf-3b4a-411c-8bad-cf160601ad9e" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="f7afc307-48cc-46c8-8d9f-5ee9d2a27303" name="Stone.Imobilizado.UnitTest">
+          <ArtifactNode Label="Stone.Imobilizado.UnitTest" Category="CodeSchema_Project" Id="(Assembly=../Stone.Imobilizado.UnitTest/Stone.Imobilizado.UnitTest.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Stone.Imobilizado.UnitTest)" Label="Stone.Imobilizado.UnitTest.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>
